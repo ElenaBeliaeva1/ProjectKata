@@ -46,31 +46,31 @@ body{
 }
 
 .menu-items__burger{
-    background-image: url("/images/burger.svg");
+    background-image: url("../images/burger.svg");
     margin-left: 16px;
 }
 
 .menu-items__call{
-    background-image: url("/images/call.svg");
+    background-image: url("../images/call.svg");
     margin-right: 16px;
 }
 
 .menu-items__message{
-    background-image: url("/images/mess.svg");
+    background-image: url("../images/mess.svg");
     margin-right: 16px;
 }
 
 .menu-items__profile{
-    background-image: url("/images/profile.svg");
+    background-image: url("../images/profile.svg");
 }
 
 .menu-items__repair{
-    background-image: url("/images/repair.svg");
+    background-image: url("../images/repair.svg");
     margin-right: 16px;
 }
 
 .menu-items__checkstatus{
-    background-image: url("/images/checkstatus.svg");
+    background-image: url("../images/checkstatus.svg");
     margin-right: 16px;
 }
 
@@ -150,7 +150,7 @@ body{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-image: url("/images/repair.svg");
+    background-image: url("../images/repair.svg");
     margin-left: 8px;
 }
 
@@ -159,7 +159,7 @@ body{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-image: url("/images/checkstatus.svg");
+    background-image: url("../images/checkstatus.svg");
     margin-left: 8px;
 }
 
@@ -211,7 +211,7 @@ body{
 }
 
 .read-more__image{
-    background: url("/images/more.svg") no-repeat;
+    background: url("../images/more.svg") no-repeat;
     height: 11px;
     width: 8px;
     margin-right: 16px;
