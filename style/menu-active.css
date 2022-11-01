@@ -1,6 +1,22 @@
+.menu-container{
+    width: 320px;
+    border: 1px solid black;
+    
+
+}
+
+/* Header */
+.header-menu-active{
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-top: 23px;
+}
 .menu-items__burger-cansel{
     background-image: url("../images/burgermenu.svg");
+
 }
 .menu-items__search{
     background-image: url("../images/search.svg");
+    margin-left: auto;
 }
