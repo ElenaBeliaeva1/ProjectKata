@@ -14,19 +14,25 @@
     align-items: center;
     padding-left: 24px;
     padding-top: 23px;
+    margin-bottom: 50px;
 }
 
 .header-menu-active__logo{
     margin-left: 16px;
+
 }
 
 .menu-items__burger-cansel{
     background-image: url("../images/burgermenu.svg");
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .menu-items__search{
     background-image: url("../images/search.svg");
     margin-left: 78px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 /*Main-list*/
@@ -42,18 +48,33 @@
     background: #41F6D7;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    opacity: 0.2;
+    visibility: hidden;
 }
 
 li{
     display: flex;
     line-height: 32px;
+    margin-bottom: 24px;
 }
 
 .list__items{
     background-color:#FFFFFF;
     padding-left: 20px;
+    font-size: large;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
+
+li:first-child > .list-separator{
+    visibility: visible;
+}
+
+.menu-items__search:hover, .menu-items__burger-cansel:hover,.list__items:hover,
+.contact-mail:hover, .contact-telephone:hover, .ru:hover, .en:hover, .ch:hover,
+.footer-console__call:hover, .footer-console__message:hover, .footer-console__profile:hover {
+    opacity: 0.5;
+}
+
 
 /*Footer*/
 .footer{
@@ -68,33 +89,43 @@ li{
     background-image: url("../images/call.svg");
     margin-left: 24px;
     margin-bottom: 16px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .footer-console__message{
     background-image: url("../images/mess.svg");
     margin-left: 16px;
     margin-bottom: 16px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .footer-console__profile{
     background-image: url("../images/profile.svg");
     margin-left: 16px;
     margin-bottom: 16px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .contact-mail{
     font-size: 16px;
     line-height: 24px;
-    margin-left: 16px;
     margin-bottom: 12px;
+    margin-left: 24px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .contact-telephone{
     font-size: 24px;
     line-height: 32px;
     font-weight: 900;
-    margin-left: 16px;
+    margin-left: 24px;
     margin-bottom: 40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .lang{
@@ -105,8 +136,17 @@ li{
 
 .ru{
     margin-right: 7px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .en{
     margin-right: 7px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.ch{
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
