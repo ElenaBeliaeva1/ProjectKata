@@ -1,4 +1,20 @@
 //Инициализация swiper
-import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-
-const swiper = new Swiper('.swiper');
+const swiperBrands = new Swiper('.brands-swiper', {
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+        },
+        767: {
+            enabled: false,
+            onAny() {
+                swiperBrands.destroy(true, true);
+            }
+        },
+    },
+    observer: true,
+});
